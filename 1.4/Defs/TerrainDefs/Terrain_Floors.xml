@@ -20,7 +20,7 @@
     <label>dwarven sandstone tile</label>
     <color>(147,127,118)</color>
     <costList>
-      <BlocksSandstone>20</BlocksSandstone>
+      <BlocksSandstone>12</BlocksSandstone>
     </costList>
   </TerrainDef>
 
@@ -29,7 +29,7 @@
     <label>dwarven granite tile</label>
     <color>(105,95,97)</color>
     <costList>
-      <BlocksGranite>20</BlocksGranite>
+      <BlocksGranite>12</BlocksGranite>
     </costList>
   </TerrainDef>
 
@@ -38,7 +38,7 @@
     <label>dwarven limestone tile</label>
     <color>(158,153,135)</color>
     <costList>
-      <BlocksLimestone>20</BlocksLimestone>
+      <BlocksLimestone>12</BlocksLimestone>
     </costList>
   </TerrainDef>
 
@@ -47,7 +47,7 @@
     <label>dwarven slate tile</label>
     <color>(70,70,70)</color>
     <costList>
-      <BlocksSlate>20</BlocksSlate>
+      <BlocksSlate>12</BlocksSlate>
     </costList>
   </TerrainDef>
 
@@ -56,7 +56,7 @@
     <label>dwarven marble tile</label>
     <color>(180,180,180)</color>
     <costList>
-      <BlocksMarble>20</BlocksMarble>
+      <BlocksMarble>12</BlocksMarble>
     </costList>
   </TerrainDef>
   
