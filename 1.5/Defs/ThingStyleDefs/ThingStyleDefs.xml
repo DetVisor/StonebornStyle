@@ -194,6 +194,69 @@
 		</graphicData>
 	</ThingStyleDef>
 
+  <ThingStyleDef>
+		<defName>DV_Dwarven_AutoPistol</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_AutoPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_MachinePistol</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_MachinePistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_BoltActionRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_BoltActionRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_PumpShotgun</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_PumpShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_HellcatRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_HellcatRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_ChargeLance</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_ChargeLance</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_SniperRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
 
   <!-- Furniture -->
 

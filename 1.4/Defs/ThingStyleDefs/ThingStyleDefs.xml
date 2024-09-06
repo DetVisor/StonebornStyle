@@ -194,6 +194,33 @@
 		</graphicData>
 	</ThingStyleDef>
 
+  <ThingStyleDef>
+		<defName>DV_Dwarven_AutoPistol</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_AutoPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_BoltActionRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_BoltActionRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Dwarven_PumpShotgun</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Dwarven/Dwarven_PumpShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
 
   <!-- Furniture -->
 

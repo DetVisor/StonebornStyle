@@ -78,9 +78,17 @@
         <thingDef>Gun_ChainShotgun</thingDef>
         <styleDef>DV_Dwarven_ChainShotgun</styleDef>
       </li>
-      <li MayRequire="det.stonebornfaction">
-        <thingDef>DV_Gun_Flameblaster</thingDef>
-        <styleDef>DV_Dwarven_Flameblaster</styleDef>
+      <li>
+        <thingDef>Gun_PumpShotgun</thingDef>
+        <styleDef>DV_Dwarven_PumpShotgun</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_BoltActionRifle</thingDef>
+        <styleDef>DV_Dwarven_BoltActionRifle</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_Autopistol</thingDef>
+        <styleDef>DV_Dwarven_AutoPistol</styleDef>
       </li>
 
       <li MayRequire="Ludeon.Rimworld.Biotech">
