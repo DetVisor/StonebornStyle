@@ -4,7 +4,7 @@
   <!-- Stacks -->
 
 
-	<ThingStyleDef ParentName="AC_StackStyles">
+	<ThingStyleDef MayRequire="hlx.ultratechalteredcarbon" ParentName="AC_StackStyles">
 		<defName>AC_Dwarven_EmptyNeuralStack</defName>
 		<graphicData>
 			<texPath>Things/Item/NeuralStacksStyles/EmptyStack</texPath>
@@ -13,7 +13,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="AC_StackStyles">
+	<ThingStyleDef MayRequire="hlx.ultratechalteredcarbon" ParentName="AC_StackStyles">
 		<defName>AC_Dwarven_ActiveNeuralStack</defName>
 		<graphicData>
 			<texPath>Things/Item/NeuralStacksStyles/FriendlyStack</texPath>
