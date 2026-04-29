@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_DwarvenWood</defName>
+    <label>dwarven timber</label>
+    <color>(102, 75, 63)</color>
+    <displayOrder>630</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_DwarvenStone</defName>
+    <label>dwarven stone</label>
+    <color>(107, 100, 90)</color>
+    <displayOrder>640</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_DwarvenBronze</defName>
+    <label>dwarven bronze</label>
+    <color>(140,89,34)</color>
+    <displayOrder>650</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_DwarvenIron</defName>
+    <label>dwarven iron</label>
+    <color>(113,104,99)</color>
+    <displayOrder>660</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_DwarvenCotton</defName>
+    <label>dwarven cotton</label>
+    <color>(183,175,124)</color>
+    <displayOrder>670</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_Mithrium</defName>
+    <label>mithrium</label>
+    <color>(160, 127, 61)</color>
+    <displayOrder>680</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_DwarvenLeather</defName>
+    <label>dwarven leather</label>
+    <color>(94,59,54)</color>
+    <displayOrder>690</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_Copper</defName>
+    <label>copper</label>
+    <color>(130,77,46)</color>
+    <displayOrder>700</displayOrder>
+  </ColorDef>
+
+  <ColorDef ParentName="StructureColorBase">
+    <defName>Structure_OxydizedCopper</defName>
+    <label>old copper</label>
+    <color>(85,119,114)</color>
+    <displayOrder>710</displayOrder>
+  </ColorDef>
+
+</Defs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<StyleCategoryDef>
+  <StyleCategoryDef>
     <defName>DV_Dwarven</defName>
     <label>dwarven</label>
     <iconPath>UI/StyleCategories/Dwarven</iconPath>
@@ -9,15 +9,15 @@
     <ritualVisualEffectDef>DV_DwarvenRitual</ritualVisualEffectDef>
     <thingDefStyles>
 
-			<li MayRequire="hlx.UltratechAlteredCarbon">
-				<thingDef>AC_EmptyNeuralStack</thingDef>
-				<styleDef>AC_Dwarven_EmptyNeuralStack</styleDef>
-			</li>
+      <li MayRequire="hlx.UltratechAlteredCarbon">
+        <thingDef>AC_EmptyNeuralStack</thingDef>
+        <styleDef>AC_Dwarven_EmptyNeuralStack</styleDef>
+      </li>
 
-			<li MayRequire="hlx.UltratechAlteredCarbon">
-				<thingDef>AC_ActiveNeuralStack</thingDef>
-				<styleDef>AC_Dwarven_ActiveNeuralStack</styleDef>
-			</li>    
+      <li MayRequire="hlx.UltratechAlteredCarbon">
+        <thingDef>AC_ActiveNeuralStack</thingDef>
+        <styleDef>AC_Dwarven_ActiveNeuralStack</styleDef>
+      </li>
 
       <li>
         <thingDef>MeleeWeapon_LongSword</thingDef>
@@ -129,6 +129,26 @@
         <thingDef>Joy_DartsBoard</thingDef>
         <styleDef>DV_Dwarven_DartBoard</styleDef>
       </li>
+      <li MayRequire="vanillaexpanded.vfecore">
+        <thingDef>Table_1x1c</thingDef>
+        <styleDef>DV_Dwarven_Table1x1c</styleDef>
+      </li>
+      <li MayRequire="det.epochsincense">
+        <thingDef>MA_IncenseBurner</thingDef>
+        <styleDef>DV_Dwarven_IncenseBurner</styleDef>
+      </li>
+      <li MayRequire="det.epochsincense">
+        <thingDef>MA_StandingIncenseBurner</thingDef>
+        <styleDef>DV_Dwarven_StandingIncenseBurner</styleDef>
+      </li>
+      <li>
+        <thingDef>Bed</thingDef>
+        <styleDef>DV_Dwarven_Bed</styleDef>
+      </li>
+      <li>
+        <thingDef>DoubleBed</thingDef>
+        <styleDef>DV_Dwarven_DoubleBed</styleDef>
+      </li>
       <li>
         <thingDef>SculptureSmall</thingDef>
         <styleDef>DV_Dwarven_SculptureSmall</styleDef>
@@ -190,6 +210,10 @@
         <styleDef>DV_Dwarven_TorchLamp</styleDef>
       </li>
       <li>
+        <thingDef>Brazier</thingDef>
+        <styleDef>DV_Dwarven_Brazier</styleDef>
+      </li>
+      <li>
         <thingDef>TorchWallLamp</thingDef>
         <styleDef>DV_Dwarven_WallTorch</styleDef>
       </li>
@@ -217,6 +241,11 @@
     <addDesignatorGroups>
       <li>DV_Floor_Dwarven_Tile</li>
     </addDesignatorGroups>
+    <addDesignators>
+      <li>DV_Dwarven_HallPillar</li>
+      <li>DV_HallDoor</li>
+      <li>DV_HallDoorTimber</li>
+    </addDesignators>
   </StyleCategoryDef>
 
 </Defs>

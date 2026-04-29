@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<MemeDef>
+		<defName>DV_Structure_Dwarven</defName>
+		<label>dwarven</label>
+		<description>Birthed in spite and forged through challenge, we hammer through to our future. The gods follow us on our path, as we build a bridge for our descendants, and learn from our ancestors.</description>
+		<category>Structure</category>
+		<iconPath>UI/StyleCategories/DwarvenLarge</iconPath>
+		<impact>0</impact>
+		<worshipRoomLabel>underhall</worshipRoomLabel>
+		<randomizationSelectionWeightFactor>3</randomizationSelectionWeightFactor>
+		<deityCount>3</deityCount>
+		<generalRules>
+			<rulesStrings>
+				<li>memeAdjective->dwarven</li>
+				<li>memeAdjective->ironbound</li>
+				<li>memeAdjective->traditional</li>
+				<li>memeAdjective->forgebound</li>
+				<li>memeAdjective->masterwrought</li>
+				<li>memeAdjective->gilded</li>
+				<li>memeAdjective->echoing</li>
+				<li>memeAdjective->vaulted</li>
+
+				<li>memeLeaderNoun->lord</li>
+				<li>memeLeaderNoun->keeper</li>
+				<li>memeLeaderNoun->grand</li>
+				<li>memeLeaderNoun->forged</li>
+
+				<li>memeLeaderAdjective->sacred</li>
+				<li>memeLeaderAdjective->gilded</li>
+				<li>memeLeaderAdjective->devout</li>
+				<li>memeLeaderAdjective->hallowed</li>
+
+				<li>memeMoralist->scrollkeeper</li>
+				<li>memeMoralist->lorekeeper</li>
+				<li>memeMoralist->grudgekeeper</li>
+				<li>memeMoralist->forgesage</li>
+				<li>memeMoralist->grandmaster</li>
+				<li>memeMoralist->anvillord</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>DV_Structure_Dwarven_Description</def>
+				</li>
+			</patterns>
+			<constants>
+
+				<li>
+					<key>structure_ideological</key>
+					<value>true</value>
+				</li>
+
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<theme>dwarves</theme>
+				<adjective>dwarven</adjective>
+				<member>dwarf</member>
+			</li>
+		</symbolPacks>
+		<thingStyleCategories>
+			<li>
+				<category>DV_Dwarven</category>
+				<priority>4</priority>
+			</li>
+		</thingStyleCategories>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Grugni</name>
+				<type>Stoneborn Allfather</type>
+			</li>
+			<li>
+				<name>Mahal</name>
+				<type>God of Mining</type>
+			</li>
+			<li>
+				<name>Uhjit</name>
+				<type>God of Tricks</type>
+			</li>
+			<li>
+				<name>Lugar</name>
+				<type>God of Song</type>
+			</li>
+			<li>
+				<name>Tomkar</name>
+				<type>God of Frost</type>
+			</li>
+			<li>
+				<name>Forgram</name>
+				<type>God of the Forge</type>
+			</li>
+			<li>
+				<name>Belhjorn</name>
+				<type>God of Nature</type>
+			</li>
+			<li>
+				<name>Olituv</name>
+				<type>God of Secrets</type>
+			</li>
+			<li>
+				<name>Cyron</name>
+				<type>God of Inspiration</type>
+			</li>
+		</fixedDeityNameTypes>
+	</MemeDef>
+</Defs>

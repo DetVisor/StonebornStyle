@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IdeoStoryPatternDef>
+
+		<defName>DV_Structure_Dwarven_Description</defName>
+		<segments>
+			<li>dwarfLessonIntro</li>
+			<li>lesson</li>
+			<li>lessonReinforcement</li>
+			<li>dwarfLessonReinforcement</li>
+		</segments>
+		<noCapitalizeFirstSentence>
+			<li>lesson</li>
+		</noCapitalizeFirstSentence>
+		<rules>
+			<include>
+				<li>IdeoDescriptionGlobal</li>
+			</include>
+			<rulesStrings>
+				<!-- final fallbacks (when no memes selected yet) -->
+				<li>lesson(priority=-1)->things happen</li>
+				<!-- typesetting -->
+				<li>r_pattern->"[r_dwarfLessonIntro] [r_lesson]. [r_lessonReinforcement] [r_dwarfLessonReinforcement]"\n\n  - [lessonAttribution]</li>
+				<!-- attribution -->
+				<li>lessonAttribution->fragment of a [edited] [saga] found [museum]</li>
+				<li>edited->damaged</li>
+				<li>edited->misinterpreted</li>
+				<li>edited->ancient</li>
+				<li>edited->forgotten</li>
+				<li>edited->preserved</li>
+				<li>saga->runic tablet</li>
+				<li>saga->techscroll relic</li>
+				<li>saga->ancient rhyme</li>
+				<li>saga->drinking song</li>
+				<li>museum->in the mind of a wise grudgekeepers</li>
+				<li>museum->on an axe, intricately carved</li>
+				<li>museum->in the ruined forge of Gundabad Prime</li>
+				<li>museum->in the grand halls of Grugni</li>
+				<li>museum->in the scrollshelves of Amadar</li>
+				<li>museum->on a statue of Erebor Grandmount</li>
+				<!-- generic intro -->
+				<li>dwarfLessonIntro->Upon the anvil of Grugni, these legends were forged:</li>
+				<li>dwarfLessonIntro->Carried through the ages by Olituv, these scrolls tell:</li>
+				<li>dwarfLessonIntro->May the hand and anvil of Forgram teach you this:</li>
+				<li>dwarfLessonIntro->For Belhjorn's words rings across the heavens and stars:</li>
+				<li>dwarfLessonIntro->With the strike of each pick, Mahal heeds:</li>
+				<li>dwarfLessonIntro->Tomkar's freezing embrace kills and maims, but it also heeds:</li>
+				<li>dwarfLessonIntro->Through Uhjit's vile sins, we spread the word:</li>
+				<li>dwarfLessonIntro->In the rock womb of Lugar's realm, she tells us all:</li>
+				<!-- generic reinforcement -->
+				<li>dwarfLessonReinforcement->For Grugni's beard blesses us.</li>
+				<li>dwarfLessonReinforcement->With your efforts, the forge burns bright.</li>
+				<li>dwarfLessonReinforcement->With your strength, the mine grows larger.</li>
+				<li>dwarfLessonReinforcement->With your cry, the hall grows joyful.</li>
+				<li>dwarfLessonReinforcement->Forgram carves into the worldblade your name.</li>
+				<li>dwarfLessonReinforcement->The strength of Belhjorn upholds those who do good.</li>
+				<li>dwarfLessonReinforcement->May Tomkar's frost bring us closer..</li>
+				<li>lessonReinforcement->And so the tale will live on.</li>
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef>
+
+
+</Defs>
